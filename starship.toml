@@ -1,0 +1,125 @@
+## FIRST LINE/ROW: Info & Status
+# First param ─┌
+[username]
+format = "[$user]($style) @ "
+show_always = true
+style_root = "bold red"
+style_user = "bold yellow"
+
+# Second param
+[hostname]
+disabled = false
+format = "🌐 [$hostname]($style) in "
+ssh_only = false
+style = "bold dimmed green"
+trim_at = "-"
+
+# Third param
+[directory]
+style = "blue"
+truncate_to_repo = true
+truncation_length = 0
+
+# Fourth param
+[sudo]
+disabled = false
+
+# Before all the version info (python, nodejs, php, etc.)
+#[git_status]
+#ahead = "⇡${count}"
+#behind = "⇣${count}"
+#deleted = "x"
+#diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+#style = "white"
+[git_status]
+format = "[$all_status$ahead_behind]($style)"
+ahead = "⇡ $count "
+behind = "⇣ $count "
+deleted = "🗑 $count "
+diverged = "⇕ $count "
+stashed = "📦 $count "
+modified = " $count "
+staged = '[ $count ](green)'
+renamed = " $count "
+untracked = "🤷 ‍$count "
+style = "bold orange"
+# Last param in the first line/row
+[cmd_duration]
+disabled = true
+format = "took [$duration]($style)"
+min_time = 1
+
+
+## SECOND LINE/ROW: Prompt
+[character]
+error_symbol = "[✘](bold red)"
+
+# Prompt: optional param 1
+[time]
+disabled = true
+format = " 🕙 $time($style)\n"
+style = "bright-white"
+time_format = "%T"
+
+[c]
+format = ""
+symbol = " "
+
+[dart]
+symbol = " "
+
+[docker_context]
+symbol = "󰡨 "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[git_branch]
+symbol = "󰊢 "
+
+[golang]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[nim]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = "󰎙 "
+
+[package]
+symbol = " "
+
+[perl]
+symbol = " "
+
+[php]
+symbol = "󰌟 "
+
+[python]
+symbol = " "
+format = ""
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[swift]
+symbol = " "
+
