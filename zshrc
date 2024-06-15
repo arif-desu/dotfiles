@@ -1,4 +1,3 @@
-
 source $HOME/.zsh/powerlevel10k/powerlevel10k.zsh-theme
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -168,10 +167,6 @@ alias fgrep='grep -F --color=auto'
 alias egrep='grep -E --color=auto'
 alias python='python3'
 alias python3-pip=pip
-alias ls='exa -l --color=auto'
-
-ARM_BAREMETAL=$HOME/.Toolchains/arm-baremetal-toolchain/bin
-ARM_LINUX=$HOME/.Toolchains/arm-linux-toolchain/bin
-
-export PATH="${ARM_BAREMETAL}:${PATH}"
-export PATH="${ARM_LINUX}:${PATH}"
+alias bat='bat --style header --style snip --style changes --style header'
+alias ls='eza --color=auto --icons'
+alias ll='eza -l --color=auto --icons'
