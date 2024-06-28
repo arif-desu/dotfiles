@@ -198,9 +198,9 @@
   #
   #
   # typeset -g POWERLEVEL9K_OS_ICON_CONTENT_EXPANSION='⭐'
-  typeset -g POWERLEVEL9K_HOME_ICON='􀎞 '
-  typeset -g POWERLEVEL9K_HOME_SUB_ICON='􀈕 '
-  typeset -g POWERLEVEL9K_FOLDER_ICON='􀈕 '
+  typeset -g POWERLEVEL9K_HOME_ICON='󰋜 '
+  typeset -g POWERLEVEL9K_HOME_SUB_ICON='󰉋 '
+  typeset -g POWERLEVEL9K_FOLDER_ICON='󰉋 '
 
   ################################[ prompt_char: prompt symbol ]################################
   # Transparent background.
