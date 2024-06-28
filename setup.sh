@@ -10,4 +10,4 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git $HOME/.zsh/zsh-au
 
 cp zshrc $HOME/.zshrc
 
-cp p10k.zsh $HOME/.p10.zsh
+cp p10k.zsh $HOME/.p10k.zsh
